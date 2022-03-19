@@ -46,22 +46,6 @@ nav a {
     color: var(--color-3);
 }
 
-main h1,h3 {
-    color: var(--color-1);
-}
-
-main h1 {
-    font-size: 70px;
-}
-main h3 {
-    font-size: 25px;
-    display:inline-flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin: 0 0 0 50px;
-    padding: 5px;
-}
-
 .bike-pic {
     background-image: url("./images/my-bike-photo.jpg");
     background-color: gray;
@@ -75,7 +59,6 @@ main h3 {
     margin: 0;
 }
 
-
 .bike-pic h3 {
     font-size: 30px;
     color: var(--color-2);
@@ -87,10 +70,28 @@ main h3 {
     align-self:baseline;
 }
 
+main h1,h3 {
+    color: var(--color-1);
+}
+
+main h1 {
+    font-size: 70px;
+}
+main h3 {
+    font-size: 25px;
+    display:inline-flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin: 0 0 0 280px;
+    padding: 5px;
+}
 main p {
     color: var(--color-1);
     font-size: 25px;
 }
 
-
+footer {
+    text-align: center;
+    color: var(--color-1);
+}
 
