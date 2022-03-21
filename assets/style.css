@@ -13,6 +13,11 @@
 
 }
 
+a:hover {
+    background-color: var(--color-3);
+    color: var(--color-2);
+}
+
 header {
     display: flex;
     flex-wrap: wrap;
@@ -64,10 +69,9 @@ nav a {
     color: var(--color-2);
     background-color: var(--color-3);
     padding: 20px 10px;
-    margin: 00;
-    line-height: 25px;
+    line-height: 15px;
     display: flex;
-    align-self:baseline;
+    align-self:flex-end;
 }
 
 main h1,h3 {
@@ -77,6 +81,7 @@ main h1,h3 {
 main h1 {
     font-size: 70px;
 }
+
 main h3 {
     font-size: 25px;
     display:inline-flex;
@@ -88,6 +93,15 @@ main h3 {
 main p {
     color: var(--color-1);
     font-size: 25px;
+}
+
+main a {
+    color: var(--color-1)
+}
+
+main a:hover {
+    background-color: var(--color-1);
+    color: var(--color-3);
 }
 
 footer {
