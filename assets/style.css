@@ -113,6 +113,7 @@ main h4 {
 }
 
 .left-border h2 {
+    display: flex;
     text-align: center;
     padding-right: 15px;
     border-bottom: 3px solid var(--color-1);
@@ -123,6 +124,7 @@ main h4 {
     max-width: 92%;
     margin-left: auto;
     margin-right: auto;
+    display: flex;
 }
 
 .work-images {
@@ -147,7 +149,16 @@ main a:hover {
 }
 
 .refactoring.img {
-    background-image: url(./images/pexels-antonio-batinić-4164418.jpg);
+    background-image: url("./images/pexels-antonio-batinić-4164418.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding: 1% 3% 2% 0;
+
 }
 footer {
     text-align: center;
