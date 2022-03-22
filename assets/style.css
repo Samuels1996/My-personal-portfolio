@@ -84,16 +84,27 @@ main h2 {
 
 main h3 {
     font-size: 25px;
-    display:inline-flex;
+    display:flex;
     flex-direction: row;
     justify-content: flex-start;
     padding: 5px;
 }
 
+main h4 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.wrapper {
+    display: grid;
+
+}
 
 .left-border {
-    margin: 25px 0;
-    padding: 10px 0;
+    margin: 38px 0;
+    padding: 15px 0;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -102,12 +113,29 @@ main h3 {
 }
 
 .left-border h2 {
-    flex: 0 0 20%;
-    text-align: right;
+    text-align: center;
     padding-right: 15px;
-    border-right: 3px solid var(--color-1);
+    border-bottom: 3px solid var(--color-1);
     font-size: 70px;
 }
+
+.right-text {
+    max-width: 92%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.work-images {
+    border: 10px var(--color-3);
+    width: 80%;
+    min-height: 150px;
+    max-height: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0;
+ }
 
 main a {
     color: var(--color-1)
@@ -118,6 +146,9 @@ main a:hover {
     color: var(--color-3);
 }
 
+.refactoring.img {
+    background-image: url(./images/pexels-antonio-batinić-4164418.jpg);
+}
 footer {
     text-align: center;
     color: var(--color-1);
