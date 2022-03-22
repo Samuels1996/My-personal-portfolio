@@ -12,8 +12,6 @@
 
 }
 
-
-
 a:hover {
     background-color: var(--color-3);
     color: var(--color-2);
@@ -28,6 +26,7 @@ header {
 }
 
 header h1 {
+    position: relative;
     text-align: right;
     background-color: var(--color-3);
     color: var(--color-2);
@@ -88,38 +87,26 @@ main h3 {
     display:inline-flex;
     flex-direction: row;
     justify-content: flex-start;
-    margin: 0 0 0 280px;
     padding: 5px;
 }
 
-main {
-    justify-content: space-between;
-    position: relative;
-}
-.left-border {
-   display: flex;
-   flex-wrap: wrap;
-   justify-content: flex-start;
-   margin: 20px 0px;
-    
-}
 
-.left-border h2 {
+.left-border {
+    margin: 25px 0;
+    padding: 10px 0;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    margin: 0 1550px 0 0;
+    align-items: stretch;
+    justify-content: space-between;
+}
+
+.left-border h2 {
+    flex: 0 0 20%;
     text-align: right;
     padding-right: 15px;
     border-right: 3px solid var(--color-1);
-}
-main p {
-    display: flex;
-    flex-direction: row;
-    text-align: left;
-    color: var(--color-1);
-    font-size: 25px;
-    margin: 0 0 0 350px;
+    font-size: 70px;
 }
 
 main a {
