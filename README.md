@@ -7,6 +7,6 @@ The design from from a standard mock-up provided by instructors.
 
 Link to deployed application: https://samuels1996.github.io/My-personal-portfolio/
 
-Display photo: <img src="./assets./images/brian-samuels-portfolio.png">
+Display photo: <img src="./assets/images/brian-samuels-portfolio.png">
 
 The page was made from scratch for CSS and HTML. 
