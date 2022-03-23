@@ -165,3 +165,9 @@ footer {
     color: var(--color-1);
 }
 
+@media screen and (max-width: 768px) {
+    header,
+    main {
+      flex-direction: column;
+    }
+
